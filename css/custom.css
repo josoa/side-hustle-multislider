@@ -1,0 +1,116 @@
+/* Img on Hover */
+
+  .czechMate:hover {
+        content: url("https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/6222b0dcff9b6e6219a264bf/1646440669316/czechMate-12.gif");
+
+}
+
+.dateNight:hover {
+        content: url("https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/6222b0e07809d1472a95fc7b/1646440672808/dateNight-12.gif");
+
+}
+
+.massageCard:hover {
+        content: url("https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/6222b0e319ebc628eceffd99/1646440676255/massageCardNinja-12.gif");
+
+}
+
+.staycation:hover {
+        content: url("https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/621915dc9c216b7fdc4cc998/1645811165350/staycation-12.gif");
+
+}
+
+/* Responsive Slides */
+
+
+@media (max-width: 767px) {
+  #exampleSlider {
+    border-color: transparent;
+    position: relative;
+  }
+}
+
+#exampleSlider .MS-content {
+  margin: 15px 5%;
+  overflow: scroll;
+  white-space: nowrap;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  overflow: scroll;
+  position: relative;
+  vertical-align: top;
+  border: none;
+  border-right: none;
+  width: 25%;
+}
+
+#exampleSlider .MS-content .item img {
+  width: 100%;
+}
+
+
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 25%;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+
+
+#exampleSlider .MS-content .item p {
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#exampleSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top: 100px;
+}
+
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+
+#exampleSlider .MS-controls button:hover {
+  cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+}

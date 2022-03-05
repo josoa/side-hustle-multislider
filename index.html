@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Side Hustle Multislider</title>
+
+    <!-- CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+      
+  
+    <div id="exampleSlider">
+       <div class="MS-content">
+           <div class="item">
+               <img class="czechMate" src="https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/6222b0b7cf51fb658182f015/1646440635084/beer-bg_czechMate.png">
+           </div>
+           <div class="item">
+               <img class="staycation" src="https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/621915d0e39e8f34c3b746d3/1645811155360/beer-bg_staycation.png">
+           </div>
+           <div class="item">
+               <img class="massageCard" src="https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/6222b0c551786a64ba0f8001/1646440649520/beer-bg_massageCardNinja.png">
+           </div>
+           <div class="item">
+               <img class="dateNight" src="https://static1.squarespace.com/static/61eb1b68813b82569827c037/t/6222b0be7888112829d756ca/1646440643367/beer-bg_dateNight.png
+">
+           </div>
+       </div>
+       <div class="MS-controls">
+           <button class="MS-left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+           <button class="MS-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+       </div>
+   </div>
+
+
+
+
+
+
+
+    <!-- Include jQuery -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+
+    <!-- Include Multislider -->
+    <script src="js/multislider.js"></script>
+
+    <!-- Initialize element with Multislider -->
+    <script>
+    $('#exampleSlider').multislider({
+        interval: false,
+        slideAll: true,
+        duration: 1500
+    });
+    </script>
+  </body>
+</html>
